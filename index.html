@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./templates/css/index.css">
+    <title>Grechka Test Task</title>
+</head>
+<body>
+    <div class="page-container">
+        <main class="page">
+            <section class="cars">
+                <div class="cars__slider swiper">
+                    <div class="swiper-wrapper"></div>
+                    <div class="cars__controls">
+                        <button class="cars__prev-button">
+                            <svg width="152" height="32">
+                                <use xlink:href="#arrow"></use>
+                            </svg>
+                        </button>
+                        <button class="cars__next-button">
+                            <svg width="152" height="32">
+                                <use xlink:href="#arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="cars__logo">
+                    <img src="./templates/img/logo.svg" width="60" height="60" alt="Логотип">
+                </div>
+            </section>
+        </main>
+    </div>
+    <div style="height: 0; width: 0; position: absolute; visibility: hidden">
+        <svg style="height: 0; width: 0">
+            <defs>
+                <linearGradient id="paint0_linear_14_595" x1="-4.37114e-08" y1="16.5" x2="150" y2="16.5172" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#999999" stop-opacity="0"/>
+                    <stop offset="1" stop-color="#727272"/>
+                </linearGradient>
+                <linearGradient id="paint0_linear_14_496" x1="0" y1="15.5" x2="151" y2="15.5174" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F36A1D" stop-opacity="0"/>
+                    <stop offset="1" stop-color="#F36A1D"/>
+                </linearGradient>
+                <clipPath id="clip0_7_18">
+                    <rect width="60" height="60" fill="white"/>
+                </clipPath>
+            </defs>
+            <symbol id="arrow" viewBox="0 0 152 32" fill="none">
+                <path d="M0 16L150 16" stroke-width="2"/>
+                <path d="M135 1L150 16L135 31" stroke-width="2"/>
+            </symbol>
+        </svg>
+    </div>
+    <script src="./templates/js/index.js"></script>
+</body>
+</html>

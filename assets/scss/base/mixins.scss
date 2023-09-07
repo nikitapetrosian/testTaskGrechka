@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'NoirPro-BoldItalic';
+	src: local('NoirPro-BoldItalic'), local('NoirPro BoldItalic'), url('../fonts/NoirPro-BoldItalic.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: 'NoirPro-Light';
+	src: local('NoirPro-Light'), local('NoirPro Light'), url('../fonts/NoirPro-Light.woff2') format('woff2');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+	
+@mixin h1 {
+    font-family: 'NoirPro-BoldItalic', sans-serif;
+    font-size: 132px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -6.6px;
+    text-transform: uppercase;
+}
+
+@mixin h2 {
+    font-family: 'NoirPro-BoldItalic', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -1.6px;
+    text-transform: uppercase;
+}
+
+@mixin txt20 {
+    font-family: 'NoirPro-Light', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 132.7%;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
